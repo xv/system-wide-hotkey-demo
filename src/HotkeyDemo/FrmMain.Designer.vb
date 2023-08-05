@@ -58,19 +58,19 @@ Partial Class FrmMain
         Me.CMB_Keys.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CMB_Keys.FormattingEnabled = True
         Me.CMB_Keys.IntegralHeight = False
-        Me.CMB_Keys.Location = New System.Drawing.Point(18, 63)
+        Me.CMB_Keys.Location = New System.Drawing.Point(18, 66)
         Me.CMB_Keys.Name = "CMB_Keys"
-        Me.CMB_Keys.Size = New System.Drawing.Size(187, 21)
+        Me.CMB_Keys.Size = New System.Drawing.Size(185, 21)
         Me.CMB_Keys.TabIndex = 19
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(15, 47)
+        Me.Label2.Location = New System.Drawing.Point(15, 50)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(28, 13)
+        Me.Label2.Size = New System.Drawing.Size(25, 13)
         Me.Label2.TabIndex = 18
-        Me.Label2.Text = "Key:"
+        Me.Label2.Text = "Key"
         '
         'CB_Mod_Shift
         '
@@ -110,16 +110,16 @@ Partial Class FrmMain
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(15, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(52, 13)
+        Me.Label1.Size = New System.Drawing.Size(49, 13)
         Me.Label1.TabIndex = 14
-        Me.Label1.Text = "Modifiers:"
+        Me.Label1.Text = "Modifiers"
         '
         'FrmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(220, 100)
+        Me.ClientSize = New System.Drawing.Size(220, 102)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label1)
